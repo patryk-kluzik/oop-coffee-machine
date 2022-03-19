@@ -20,4 +20,3 @@ while coffee_machine_on:
         if menu_choice is not None:
             if coffee_maker.is_resource_sufficient(menu_choice) and money_machine.make_payment(menu_choice.cost):
                 coffee_maker.make_coffee(menu_choice)
-
